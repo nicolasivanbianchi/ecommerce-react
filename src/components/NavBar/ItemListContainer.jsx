@@ -1,9 +1,18 @@
 import React from 'react'
 import CartWidget from './CartWidget'
+import ItemCount from './ItemCount'
 
-export function ItemListContainer (){
-    return(
-    <h1>Loading...</h1>
+
+export const ItemListContainer = ({texto}) => {
+
+    const onAdd = (quantity) => {
+        console.log(`Compraste ${quantity} unidades`)
+    }
+
+    return (
+        <>
+            <ItemCount initial={3} stock={5} onAdd={onAdd}/>
+        </>
     )
 }
 

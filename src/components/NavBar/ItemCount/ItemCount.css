@@ -1,0 +1,16 @@
+.counter {
+    width: fit-content;
+    background-color: gold;
+    margin: auto;
+    padding: 3rem;
+    text-align: center;
+}
+
+.button {
+    width: 2rem;
+    height: 3rem;
+    margin: 1rem;
+    font-size: 2rem;
+    color: white;
+    background-color: gray;
+}
